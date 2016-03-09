@@ -1,15 +1,16 @@
-# A Spec JSON Reporter for Mocha
+# Bamboo and TestRail reporter for Mocha
+Generates mocha.json and report file for testrail
 
 ## Installation
 
 ```
-npm install git@github.com:bosnian/mocha-spec-json-reporter.git
+npm install git@github.com:minche/mocha-bamboo-testrail-reporter.git
 ```
 
 ## Usage
 
 ```
-mocha -R mocha-spec-json-reporter
+mocha -R mocha-bamboo-testrail-reporter
 ```
 
-You will then get a neat file `mocha-output.json` containing specked output in a JSON format.
+You will then get a neat file `mocha.json` containing specked output in a JSON format for Bamboo to parse, and timestamped json report for TestRail.
