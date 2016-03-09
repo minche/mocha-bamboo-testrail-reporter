@@ -1,0 +1,31 @@
+{
+  "name": "mocha-bamboo-testrail-reporter",
+  "version": "1.0.0",
+  "description": "Mocha reporter for bamboo and testrail reports",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "minche",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mackstar/mocha-spec-json-reporter.git"
+  },
+  "main": "lib/bamboo-testrail-reporter.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "mocha": ">=1.17.1",
+    "assert": "~1.1.1",
+    "sinon": "~1.10.0"
+  }
+}
